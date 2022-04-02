@@ -55,3 +55,35 @@ student_name, emp_name : name;
 cost: fees;
 ```
 
+## 变量初始化
+
+为变量赋值的语法如下：
+
+```pascal
+variable_name := value;
+```
+
+默认情况下，Pascal的变量不初始化为0.因此，在程序中初始化是一种好习惯。变量可以在其声明中进行初始化（分配初始值）。
+
+```pascal
+var
+variable_name : type = value;
+```
+
+示例：
+
+```pascal
+age: integer = 15;
+taxrate: real = 0.5;
+grade: char = 'A';
+name: string = 'John Smith';
+```
+
+## 枚举变量
+
+见示例代码：`t3-3.pas`
+
+## 子范围变量
+
+见示例代码：`t3-4.pas`
+
